@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local env and Claude settings
+.env
+.env.*
+.claude/settings.local.json
+
+# Generated test fixtures (rebuilt by scripts/make_fixtures.py)
+tests/fixtures/
+
+# Never commit real or scrubbed work files, mappings or job data
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+*.enc
+mapping*.json
+.entity-scrub/
+jobs/
